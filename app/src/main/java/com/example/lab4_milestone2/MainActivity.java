@@ -25,7 +25,7 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     LocationManager locationManager;
-    LocationManager locationListener;
+    LocationListener locationListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
