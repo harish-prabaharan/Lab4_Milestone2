@@ -19,48 +19,51 @@
         android:id="@+id/latTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:text="Lattitude: "
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="140dp" />
+        app:layout_constraintBottom_toTopOf="@+id/addTextView"
+        tools:layout_editor_absoluteX="31dp" />
 
     <TextView
         android:id="@+id/lonTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Longitude"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="186dp" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="182dp" />
 
     <TextView
         android:id="@+id/accTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Accuracy"
-        tools:layout_editor_absoluteX="31dp"
-        tools:layout_editor_absoluteY="229dp" />
+        app:layout_constraintBottom_toTopOf="@+id/altTextView"
+        tools:layout_editor_absoluteX="29dp" />
 
     <TextView
         android:id="@+id/altTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Altitude"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="272dp" />
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="263dp" />
 
     <TextView
         android:id="@+id/addTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Address"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="321dp" />
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="339dp" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Location 101"
-        tools:layout_editor_absoluteX="168dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="76dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
